@@ -33,9 +33,10 @@ The ALU design uses the **GeneratePropagateUnit** to derive intermediate carry s
 ## Simulation  
 Run the testbench in **Vivado ModelSim/ISE** or any compatible Verilog simulator. The expected waveform should demonstrate correct ALU operation with proper carry, propagate, and equality outputs.
 
+<a name="output-waveform"></a>
 Example waveform output:  
 ![Waveform](sim/sim.png)  
-<a name="output-waveform"></a>
+
 
 ## How to Run  
 1. Create a new project in your preferred Verilog development environment.
